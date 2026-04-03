@@ -1,4 +1,4 @@
-import { useState, useEffect } from "react";
+import { useEffect } from "react";
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import Services from "./components/Services";
@@ -7,12 +7,10 @@ import Verify from "./components/Verify";
 import Reviews from "./components/Reviews";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
-import Loader from "./components/Loader";
-import RegisterCTA from "./components/RegisterCTA";
 import About from "./components/About";
 
+
 function App() {
-  const [loading, setLoading] = useState(false); // 🔥 disable loader
 
   useEffect(() => {
     if (window.AOS) {

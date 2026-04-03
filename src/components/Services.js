@@ -50,10 +50,11 @@ export default function Services() {
               
               {/* IMAGE */}
               <div className="w-72 h-72 rounded-full overflow-hidden shadow-xl">
-                <img
-                  src={item.img}
-                  className="w-full h-full object-cover"
-                />
+                  <img
+                    src={item.img}
+                    alt={item.title}
+                    className="w-full h-full object-cover"
+                  />
               </div>
 
               {/* TITLE */}

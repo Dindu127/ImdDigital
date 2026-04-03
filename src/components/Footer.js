@@ -14,7 +14,7 @@ export default function Footer() {
         <div>
           <h3 className="font-semibold mb-2">Quick Links</h3>
           <ul className="space-y-2 text-gray-400">
-            <li><a href="#">Home</a></li>
+            <li><a href="#home">Home</a></li>
             <li><a href="#services">Services</a></li>
             <li><a href="#verify">Verify</a></li>
           </ul>
