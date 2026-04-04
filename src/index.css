@@ -22,8 +22,12 @@ html {
   scroll-padding-top: 100px; /* adjust based on navbar height */
 }
 
-input[type="date"]::-webkit-calendar-picker-indicator {
-  filter: invert(1);
+input[type="date"] {
+  color-scheme: dark;
+}
+
+input[type="date"]::-webkit-datetime-edit {
+  color: white;
 }
 
 @keyframes slideIn {

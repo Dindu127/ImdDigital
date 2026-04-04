@@ -93,17 +93,20 @@ export default function Verify() {
               className="w-full md:w-[350px] px-5 py-3 rounded-xl bg-white/10 backdrop-blur-md text-white placeholder-gray-300 border border-white/20 focus:outline-none focus:ring-2 focus:ring-blue-500"
             />
 
-            <div className="relative w-full md:w-[250px]">
-                <label className="absolute -top-5 left-2 text-xs text-gray-300 bg-[#2d1b69] px-2">
+              <div className="relative w-full md:w-[250px]">
+
+                <label className="absolute -top-4 left-2 text-xs text-gray-300 bg-[#2d1b69] px-2">
                   Date of Birth
                 </label>
-              <input
-                type="date"
-                value={dob}
-                onChange={(e) => setDob(e.target.value)}
-                className="w-full md:w-[250px] px-5 py-3 rounded-xl bg-white/10 backdrop-blur-md text-white border border-white/20 focus:outline-none focus:ring-2 focus:ring-blue-500"
-              />
-            </div>
+
+                <input
+                  type="date"
+                  value={dob}
+                  onChange={(e) => setDob(e.target.value)}
+                  className="w-full px-5 py-3 rounded-xl bg-white/10 backdrop-blur-md text-white border border-white/20 focus:outline-none focus:ring-2 focus:ring-blue-500"
+                />
+
+              </div>
 
             <button
               onClick={handleVerify}
