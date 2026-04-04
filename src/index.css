@@ -22,6 +22,10 @@ html {
   scroll-padding-top: 100px; /* adjust based on navbar height */
 }
 
+input[type="date"]::-webkit-calendar-picker-indicator {
+  filter: invert(1);
+}
+
 @keyframes slideIn {
   from {
     transform: translateX(100%);
