@@ -94,6 +94,9 @@ export default function Verify() {
             />
 
             <div className="relative w-full md:w-[250px]">
+                <label className="absolute -top-5 left-2 text-xs text-gray-300 bg-[#2d1b69] px-2">
+                  Date of Birth
+                </label>
               <input
                 type="date"
                 value={dob}
